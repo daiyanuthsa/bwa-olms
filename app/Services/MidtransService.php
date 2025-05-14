@@ -12,7 +12,7 @@ class MidtransService
     public function __construct()
     {
         // Set Midtrans configuration
-        Config::$serverKey = config('midtrans.serverKey');
+        Config::$serverKey = config('midtrans.server_key');
         Config::$isProduction = config('midtrans.isProduction');
         Config::$isSanitized = config('midtrans.isSanitized');
         Config::$is3ds = config('midtrans.is3ds');
